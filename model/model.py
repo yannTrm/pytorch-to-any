@@ -8,7 +8,7 @@ dummy_input = torch.randn(1, 3, 224, 224)
 
 class Network(nn.Module):
     """
-    Vehicle classification model using pre-trained model
+    Classification model using pre-trained model
 
     Args:
         model (str): Name of the pretrained Model we want to use (mobilenetv2, mobilenetv3-s, mobilenetv3-l, efficientnet, squeezenet, shufflenet)
