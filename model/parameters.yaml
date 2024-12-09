@@ -1,0 +1,2 @@
+model: squeezenet
+num_classes: 31
